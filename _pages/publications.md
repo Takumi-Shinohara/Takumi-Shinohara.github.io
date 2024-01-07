@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: 
-years: [2024, 2023, 2022, 2021, 2020]
+years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 categories: ['Journal Articles', 'Conference Articles']
 catprint: ['','Journal Articles', 'Conference Articles']
 nav: true
@@ -26,7 +26,6 @@ nav_order: 2
 		{%- endcapture -%}
 
 		{% if citecount != "0"  %}
-			<h2 class="year">{{y}}</h2>
 			{% bibliography -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
 		{% endif %}
 	{% endfor %}
