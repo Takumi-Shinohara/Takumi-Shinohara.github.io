@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. student at Keio University.
+subtitle: 
 
 profile:
   align: right
