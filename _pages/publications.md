@@ -16,7 +16,7 @@ nav_order: 2
 	{% assign ind = forloop.index %}
 
 	{%- capture cat -%}
-	
+	{{ page.catprint[ind] }}
 	{%- endcapture -%}
 	
 	<h4 class="font-weight-bolder">{{cat}}</h4>
