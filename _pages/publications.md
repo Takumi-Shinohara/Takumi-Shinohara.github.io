@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: 
-years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030]
 categories: ['Journal Articles', 'Conference Articles']
 catprint: ['','Journal Articles', 'Conference Articles']
 nav: true
