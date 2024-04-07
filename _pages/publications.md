@@ -19,7 +19,7 @@ nav_order: 2
 	{{ page.catprint[ind] }}
 	{%- endcapture -%}
 	
-	<h4 class="font-weight-bolder">{{cat}}</h4>
+	<h4 class="font-weight-bolder; color:#00369f">{{cat}}</h4>
 	{% for y in page.years reversed  %}
 		{%- capture citecount -%}
 		{% bibliography_count -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
