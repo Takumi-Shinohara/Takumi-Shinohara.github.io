@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Takumi Shinohara
-    - name: Date of Birth
-      value: 22nd September 1993
     - name: Languages
       value: Japanese, English
 
@@ -13,32 +11,32 @@
   contents:
     - title: Ph.D. in Engineering
       institution: Keio University, Tokyo, Japan
-      year: 1993
+      year: 2024
       description:
-        - Thesis Title: Secure state estimation under sensor attacks
-        - Advisor: Prof. Toru Namerikawa
+        - Thesis Title | Secure state estimation under sensor attacks
+        - Advisor | Prof. Toru Namerikawa
     - title: Master in Engineering 
       institution: Keio University, Tokyo, Japan
       year: 2018
       description:
-        - Thesis Title: Zero-stealthy attacks in cyber-physical systems and secure state estimation in adversarial environments
-        - Advisor: Prof. Toru Namerikawa
+        - Thesis Title | Zero-stealthy attacks in cyber-physical systems and secure state estimation in adversarial environments
+        - Advisor | Prof. Toru Namerikawa
 
 - title: Employment
   type: time_table
   contents:
     - title: Consultant
-      institution: Consultant, Mitsubishi Research Institute, Inc., Tokyo, Japan
-      year: 2018
+      institution: Mitsubishi Research Institute, Inc., Tokyo, Japan
+      year: 2018 - present
       description:
         - Research, study, and consult on the cybersecurity policy for the Japanese Government (e.g., METI, MIC, and NISC) and consult private companies with cybersecurity issues.
     - title: Visiting Researcher
       institution: Keio University, Tokyo, Japan
-      year: 2024
+      year: 2024 - present
       description:
         - Academic research on secure control systems.
 
 - title: Review Activities
   type: list
   contents:
-    - IEEE Transactions on Automatic Control, Automatica, and control conference.
+    - IEEE Transactions on Automatic Control, Automatica, and control conferences.
