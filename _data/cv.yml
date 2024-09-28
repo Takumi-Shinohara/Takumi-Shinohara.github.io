@@ -3,6 +3,8 @@
   contents:
     - name: Full Name
       value: Takumi Shinohara
+    - name: Email
+      value: ye.5.takt.s@gmail.com
     - name: Languages
       value: Japanese, English
 
@@ -26,7 +28,7 @@
   type: time_table
   contents:
     - title: Consultant
-      institution: Mitsubishi Research Institute, Inc., Tokyo, Japan
+      company: Mitsubishi Research Institute, Inc., Tokyo, Japan
       year: 2018 - present
       description:
         - Research, study, and consult on the cybersecurity policy for the Japanese Government (e.g., METI, MIC, and NISC) and consult private companies with cybersecurity issues.
