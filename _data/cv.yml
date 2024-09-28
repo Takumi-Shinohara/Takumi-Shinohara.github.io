@@ -12,13 +12,13 @@
   type: time_table
   contents:
     - title: Ph.D. in Engineering
-      institution: Keio University, Tokyo, Japan
+      institution: Keio University
       year: 2024
       description:
         - Thesis Title | Secure state estimation under sensor attacks
         - Advisor | Prof. Toru Namerikawa
     - title: Master in Engineering 
-      institution: Keio University, Tokyo, Japan
+      institution: Keio University
       year: 2018
       description:
         - Thesis Title | Zero-stealthy attacks in cyber-physical systems and secure state estimation in adversarial environments
@@ -28,12 +28,12 @@
   type: time_table
   contents:
     - title: Consultant
-      company: Mitsubishi Research Institute, Inc., Tokyo, Japan
+      institution: Mitsubishi Research Institute, Inc.
       year: 2018 - present
       description:
         - Research, study, and consult on the cybersecurity policy for the Japanese Government (e.g., METI, MIC, and NISC) and consult private companies with cybersecurity issues.
     - title: Visiting Researcher
-      institution: Keio University, Tokyo, Japan
+      institution: Keio University
       year: 2024 - present
       description:
         - Academic research on secure control systems.
