@@ -37,6 +37,16 @@
 
     <!-- Dark Mode -->
     {% if site.enable_darkmode %}
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1WGVKCJF4V"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-1WGVKCJF4V');
+    </script>
     <link rel="stylesheet" href="{{ '/assets/css/jekyll-pygments-themes-native.css' | relative_url | bust_file_cache }}" media="none" id="highlight_theme_dark" />
     <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
     {% endif %}
