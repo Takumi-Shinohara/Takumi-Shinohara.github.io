@@ -18,8 +18,8 @@ Listed below are my publications in reversed chronological order:
 
 <p>
 <ul>
-    <li><h3 id="journal-articles"><b>Journal Articles</b></h3></li>
-    <li><h3 id="conference-articles"><b>Conference Articles</b></h3></li>
+    <li><a href="https://takumi-shinohara.github.io/publications/#journal-articles"><b>Journal Articles</b></a></li>
+    <li><a href="https://takumi-shinohara.github.io/publications/#conference-articles"><b>Conference Articles</b></a></li>
 </ul>
 </p>
 
