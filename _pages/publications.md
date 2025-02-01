@@ -4,8 +4,6 @@ permalink: /publications/
 title: Publications
 description: 
 years: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030]
-categories: ['Journal Articles', 'Conference Articles']
-catprint: ['','Journal Articles', 'Conference Articles']
 nav: true
 nav_order: 2
 ---
@@ -18,28 +16,18 @@ Listed below are my publications in reversed chronological order:
 
 <p>
 <ul>
-    <li><a href="#Journal Articles"><b>Journal Articles</b></a></li>
+    <li><a href="#journals"><b>Journal Articles</b></a></li>
     <li><a href="#Conference Articles"><b>Conference Articles</b></a></li>
 </ul>
 </p>
+<a id="journal"><h3 style="margin-top: 3rem; margin-bottom: 0.3rem;"><b>Journal Articles</b></h3></a>
+<hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
+{% bibliography -f publications_journal %}
 
-{% for cat_ in page.categories  %}
-	{% assign ind = forloop.index %}
 
-	{%- capture cat -%}
-	{{ page.catprint[ind] }}
-	{%- endcapture -%}
-	
-	<h4 style="color:#00369f">{{cat}}</h4>
-	{% for y in page.years reversed  %}
-		{%- capture citecount -%}
-		{% bibliography_count -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
-		{%- endcapture -%}
+<a id="conference"><h3 style="margin-top: 3rem; margin-bottom: 0.3rem;"><b>Conference Articles</b></h3></a>
+<hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
+{% bibliography -f publications_conference %}
 
-		{% if citecount != "0"  %}
-			{% bibliography -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
-		{% endif %}
-	{% endfor %}
-{% endfor %}
 
 </div>
