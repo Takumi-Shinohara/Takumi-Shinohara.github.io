@@ -23,6 +23,8 @@ Listed below are my publications in reversed chronological order:
 </ul>
 </p>
 
+
+
 {% for cat_ in page.categories  %}
 	{% assign ind = forloop.index %}
 
