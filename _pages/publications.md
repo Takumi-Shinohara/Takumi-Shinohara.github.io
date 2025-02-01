@@ -18,8 +18,8 @@ Listed below are my publications in reversed chronological order:
 
 <p>
 <ul>
-    <li><a href="#journal-articles"><b>Journal Articles</b></a></li>
-    <li><a href="#conference-articles"><b>Conference Articles</b></a></li>
+    <li><a href="journal-articles"><b>Journal Articles</b></a></li>
+    <li><a href="conference-articles"><b>Conference Articles</b></a></li>
 </ul>
 </p>
 
