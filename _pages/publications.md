@@ -8,7 +8,6 @@ nav: true
 nav_order: 2
 ---
 <!-- _pages/publications.md -->
-<div class="publications">
 
 <p> 
 Listed below are my publications in reversed chronological order:
@@ -16,10 +15,12 @@ Listed below are my publications in reversed chronological order:
 
 <p>
 <ul>
-    <li><a href="#journals"><b>Journal Articles</b></a></li>
-    <li><a href="#Conference Articles"><b>Conference Articles</b></a></li>
+    <li><a href="#journal"><b>Journal Articles</b></a></li>
+    <li><a href="#conference"><b>Conference Articles</b></a></li>
 </ul>
 </p>
+
+<div class="publications">
 <a id="journal"><h3 style="margin-top: 3rem; margin-bottom: 0.3rem;"><b>Journal Articles</b></h3></a>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
 {% bibliography -f publications_journal %}
@@ -28,6 +29,5 @@ Listed below are my publications in reversed chronological order:
 <a id="conference"><h3 style="margin-top: 3rem; margin-bottom: 0.3rem;"><b>Conference Articles</b></h3></a>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
 {% bibliography -f publications_conference %}
-
 
 </div>
