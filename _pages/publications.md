@@ -12,13 +12,16 @@ nav_order: 2
 <!-- _pages/publications.md -->
 <div class="publications">
 
+<p> 
 Listed below are my publications in reversed chronological order:
+</p>
 
-- Journal Articles
-
-- Conference Articles
-
-- 
+<p>
+<ul>
+    <li><a href="#journal"><b>Journal Articles</b></a></li>
+    <li><a href="#theses"><b>Conference Articles</b></a></li>
+</ul>
+</p>
 
 {% for cat_ in page.categories  %}
 	{% assign ind = forloop.index %}
