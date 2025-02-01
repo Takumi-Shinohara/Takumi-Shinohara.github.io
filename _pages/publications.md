@@ -18,8 +18,8 @@ Listed below are my publications in reversed chronological order:
 
 <p>
 <ul>
-    <li><a href="journal-articles"><b>Journal Articles</b></a></li>
-    <li><a href="conference-articles"><b>Conference Articles</b></a></li>
+    <li><h3 id="journal-articles"><b>Journal Articles</b></h3></li>
+    <li><h3 id="conference-articles"><b>Conference Articles</b></h3></li>
 </ul>
 </p>
 
@@ -30,7 +30,7 @@ Listed below are my publications in reversed chronological order:
 	{{ page.catprint[ind] }}
 	{%- endcapture -%}
 	
-	<h4 id="{{ cat | slugify }}" style="color:#00369f">{{ cat }}</h4>
+	<h3 id="{{ cat | slugify }}" style="color:#00369f">{{ cat }}</h3>
 	{% for y in page.years reversed  %}
 		{%- capture citecount -%}
 		{% bibliography_count -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
