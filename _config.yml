@@ -8,7 +8,7 @@ middle_name:
 last_name: Shinohara
 email: ye.5.takt.s@gmail.com #
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ph.D. student at Keio University 
+  Visiting Researcher at Keio University 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -281,7 +281,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib, publications_journal.bib, publications_conference.bib
+  bibliography: papers.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
