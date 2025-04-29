@@ -38,7 +38,26 @@
       description:
         - Academic research on secure control systems.
 
+- title: Honors and Awards
+  type: list
+  contents:
+    - description:
+      - Fujiwara award (Best Ph.D. student award), Keio University, 2025.
+      - Best presentation award, 65th Japan Joint Automatic Control Conference, 2022.
+      - Best presentation award, 59th Japan Joint Automatic Control Conference, 2016.
+
 - title: Review Activities
   type: list
   contents:
-    - IEEE Transactions on Automatic Control, Automatica, and control conferences.
+    - title: Journals
+      description:
+      - IEEE Transactions on Automatic Control
+      - Automatica
+      - IEEE Transactions on Control of Network Systems
+      - IEEE Transactions on Cybernetics
+      - IEEE Journal on Selected Areas in Communications
+    - title: Conferences
+      description:
+      - IEEE Conference on Decision and Control 
+      - American Control Conference
+      - IEEE Vehicular Technology Conference
