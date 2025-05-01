@@ -3,6 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: 
+  Postdoctoral Researcher at KTH Royal Institute of Technology
 
 profile:
   align: right
@@ -10,8 +11,6 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     Malvinas Väg 10, 100 44 Stockholm
-    Division of Decision and Control Systems
-    KTH Royal Institute of Technology
 
 
 news: false  # includes a list of news items
