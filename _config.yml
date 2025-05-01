@@ -116,7 +116,7 @@ google_analytics:  G-1WGVKCJF4V # your Google Analytics measurement ID (format: 
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: rsgHZNOZH93WK0F3cS8olKjrbv1zOtvQHGAN9Pa5XDM # your google-site-verification ID (Google Search Console)
+google_site_verification: J5RckPMESjvpcC2wpfH1TCRRJs6ef6ove0dlQ9vtDXw # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
