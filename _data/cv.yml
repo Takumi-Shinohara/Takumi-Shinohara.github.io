@@ -3,10 +3,32 @@
   contents:
     - name: Full Name
       value: Takumi Shinohara
+    - name: Affiliation
+      value: KTH Royal Institute of Technology
     - name: Email
       value: ye.5.takt.s@gmail.com
     - name: Languages
       value: Japanese, English
+
+- title: Employment
+  type: time_table
+  contents:
+    - title: Postdoctoral Researcher
+      institution: KTH Royal Institute of Technology
+      year: 2025 - present
+      description:
+        - Research on learning and control of networked controlled systems with Prof. Karl Henrik Johansson.
+    - title: Visiting Researcher
+      institution: Keio University
+      year: 2024 - 2025
+      description:
+        - Academic research on secure control systems.
+    - title: Consultant
+      institution: Mitsubishi Research Institute, Inc.
+      year: 2018 - 2025
+      description:
+        - Research, study, and consult on the cybersecurity policy for the Japanese Government (e.g., METI, MIC, and NISC) and consult private companies with cybersecurity issues.
+
 
 - title: Education
   type: time_table
@@ -24,19 +46,6 @@
         - Thesis Title | Zero-stealthy attacks in cyber-physical systems and secure state estimation in adversarial environments
         - Advisor | Prof. Toru Namerikawa
 
-- title: Employment
-  type: time_table
-  contents:
-    - title: Consultant
-      institution: Mitsubishi Research Institute, Inc.
-      year: 2018 - present
-      description:
-        - Research, study, and consult on the cybersecurity policy for the Japanese Government (e.g., METI, MIC, and NISC) and consult private companies with cybersecurity issues.
-    - title: Visiting Researcher
-      institution: Keio University
-      year: 2024 - present
-      description:
-        - Academic research on secure control systems.
 
 - title: Honors and Awards
   type: time_table
