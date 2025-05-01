@@ -9,6 +9,10 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    Malvinas Väg 10, 100 44 Stockholm
+    Division of Decision and Control Systems
+    KTH Royal Institute of Technology
+
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
