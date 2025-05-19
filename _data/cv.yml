@@ -16,7 +16,8 @@
   type: time_table
   contents:
     - title: Postdoctoral Researcher
-      institution: KTH Royal Institute of Technology, Stockholm, Sweden
+      institution: KTH Royal Institute of Technology
+      location: Stockholm, Sweden
       year: 2025 - present
       description:
         - Research on learning and control of networked controlled systems with Prof. Karl Henrik Johansson and Prof. Henrik Sandberg.
