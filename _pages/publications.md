@@ -13,7 +13,7 @@ nav_order: 2
 <div class="publications">
 
 <p> 
-Listed below are my publications in reversed chronological order:
+Listed below are my publications in reverse chronological order:
 </p>
 
 <p>
