@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper has been accepted for presentation at the CDC 2025 in Brazil.
+Our conference paper has been accepted for presentation at the CDC 2025 in Brazil.
