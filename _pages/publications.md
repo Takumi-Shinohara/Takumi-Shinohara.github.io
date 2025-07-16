@@ -33,7 +33,7 @@ Listed below are my publications in reverse chronological order:
 	{{ page.catprint[ind] }}
 	{%- endcapture -%}
 	
-	<h3 id="{{ cat | slugify }}" style="color:#00369f">{{ cat }}</h3>
+	<h3 id="{{ cat | slugify }}">{{ cat }}</h3>
 	{% for y in page.years reversed  %}
 		{%- capture citecount -%}
 		{% bibliography_count -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
