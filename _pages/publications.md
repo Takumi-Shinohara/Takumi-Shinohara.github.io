@@ -37,7 +37,6 @@ toc:
 {% endfor %}
 
 </div>
-
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   // 目次に残したいアンカーだけを許可
@@ -58,3 +57,4 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 </script>
+
