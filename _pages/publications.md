@@ -17,6 +17,18 @@ toc:
 <!-- _pages/publications.md -->
 <div class="publications">
 
+<p> 
+Listed below are my publications in reverse chronological order:
+</p>
+
+<p>
+<ul>
+    <li><a href="#preprints"><b>Preprints</b></a></li>
+    <li><a href="#journal-articles"><b>Journal Articles</b></a></li>
+    <li><a href="#conference-articles"><b>Conference Articles</b></a></li>
+</ul>
+</p>
+
 {% for cat_ in page.categories  %}
 	{% assign ind = forloop.index %}
 
