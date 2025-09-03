@@ -39,27 +39,14 @@ toc:
 </div>
 <script>
 (function () {
-  // 年の <h2 class="bibliography">xxxx</h2> を TOC から除外
-  function markYearsToSkip(root=document) {
-    root.querySelectorAll('h2.bibliography').forEach(h => {
-      const text = (h.textContent || '').trim();
-      if (/^\d{4}$/.test(text)) {
-        h.setAttribute('data-toc-skip', ''); // bootstrap-toc が無視する
-      }
+  function markYearsToSkip() {
+    document.querySelectorAll('h2.bibliography').forEach(h => {
+      const t = (h.textContent || '').trim();
+      if (/^\d{4}$/.test(t)) h.setAttribute('data-toc-skip','');
     });
   }
-
-  // すぐ実行（deferスクリプトより先に走る）
   markYearsToSkip();
-
-  // DOM 完了後も一応もう一度（安全策）
-  document.addEventListener('DOMContentLoaded', markYearsToSkip);
-
-  // もしテーマが後から本文/TOCを書き換える場合に備えて監視
-  new MutationObserver(muts => {
-    muts.forEach(m => m.addedNodes.forEach(n => {
-      if (n.nodeType === 1) markYearsToSkip(n);
-    }));
-  }).observe(document.body, { childList: true, subtree: true });
+  window.addEventListener('DOMContentLoaded', markYearsToSkip);
+  window.addEventListener('load', markYearsToSkip);
 })();
 </script>
