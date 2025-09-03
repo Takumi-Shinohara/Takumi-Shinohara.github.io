@@ -12,6 +12,7 @@ toc:
   min_level: 2
   max_level: 3
   sidebar: left
+toc_exclude: '^\d{4}$'
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
