@@ -38,20 +38,28 @@ toc:
 
 </div>
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-  const allow = new Set(['#preprints', '#journal-articles', '#conference-articles']);
+(function () {
+  // 年の <h2 class="bibliography">xxxx</h2> を TOC から除外
+  function markYearsToSkip(root=document) {
+    root.querySelectorAll('h2.bibliography').forEach(h => {
+      const text = (h.textContent || '').trim();
+      if (/^\d{4}$/.test(text)) {
+        h.setAttribute('data-toc-skip', ''); // bootstrap-toc が無視する
+      }
+    });
+  }
 
-  document.querySelectorAll('.sidebar .toc a, nav.toc a, .toc a').forEach(a => {
-    const href = (a.getAttribute('href') || '').toLowerCase();
-    if (!allow.has(href)) {
-      const li = a.closest('li') || a.parentElement;
-      if (li) li.remove();
-    }
-  });
+  // すぐ実行（deferスクリプトより先に走る）
+  markYearsToSkip();
 
-  document.querySelectorAll('.sidebar .toc ul, nav.toc ul, .toc ul').forEach(ul => {
-    if (!ul.querySelector('li')) ul.remove();
-  });
-});
+  // DOM 完了後も一応もう一度（安全策）
+  document.addEventListener('DOMContentLoaded', markYearsToSkip);
+
+  // もしテーマが後から本文/TOCを書き換える場合に備えて監視
+  new MutationObserver(muts => {
+    muts.forEach(m => m.addedNodes.forEach(n => {
+      if (n.nodeType === 1) markYearsToSkip(n);
+    }));
+  }).observe(document.body, { childList: true, subtree: true });
+})();
 </script>
-
