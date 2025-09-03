@@ -8,8 +8,6 @@ categories: ['Preprints', 'Journal Articles', 'Conference Articles']
 catprint: ['', 'Preprints', 'Journal Articles', 'Conference Articles']
 nav: true
 nav_order: 2
-toc:
-  sidebar: left
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
