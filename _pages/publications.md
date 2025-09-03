@@ -1,5 +1,3 @@
----
-layout: page
 permalink: /publications/
 title: Publications
 description: 
@@ -10,12 +8,11 @@ nav: true
 nav_order: 2
 toc:
   sidebar: left
+  min_level: 3
+  max_level: 3
 ---
 <!-- _pages/publications.md -->
-<div class="publications" markdown="1">
-
-* Sections
-{:toc}
+<div class="publications">
 
 {% for cat_ in page.categories  %}
 	{% assign ind = forloop.index %}
@@ -24,16 +21,13 @@ toc:
 	{{ page.catprint[ind] }}
 	{%- endcapture -%}
 
- 	### {{ cat }}
-  	{: #{{ cat | slugify }} }
-	
+	<h3 id="{{ cat | slugify }}">{{ cat }}</h3>
 	{% for y in page.years reversed  %}
 		{%- capture citecount -%}
 		{% bibliography_count -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
 		{%- endcapture -%}
 
 		{% if citecount != "0"  %}
-  			#### {{ y }} {: .no_toc}
 			{% bibliography -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
 		{% endif %}
 	{% endfor %}
