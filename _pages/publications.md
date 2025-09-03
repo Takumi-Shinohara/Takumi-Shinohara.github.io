@@ -39,10 +39,8 @@ toc:
 </div>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  // 目次に残したいアンカーだけを許可
   const allow = new Set(['#preprints', '#journal-articles', '#conference-articles']);
 
-  // サイドバーTOC内のリンクを走査（al-folioのクラスに合わせてセレクタを広めに）
   document.querySelectorAll('.sidebar .toc a, nav.toc a, .toc a').forEach(a => {
     const href = (a.getAttribute('href') || '').toLowerCase();
     if (!allow.has(href)) {
@@ -51,7 +49,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  // もし TOC の入れ子 <ul> が空になったら削っておく（見た目の崩れ防止）
   document.querySelectorAll('.sidebar .toc ul, nav.toc ul, .toc ul').forEach(ul => {
     if (!ul.querySelector('li')) ul.remove();
   });
