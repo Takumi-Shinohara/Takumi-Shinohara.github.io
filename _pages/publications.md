@@ -10,8 +10,8 @@ nav: true
 nav_order: 2
 toc:
   sidebar: left
-  min_level: 4
-  max_level: 4
+  min_level: 2
+  max_level: 2
 ---
 
 <!-- _pages/publications.md -->
@@ -24,7 +24,7 @@ toc:
 	{{ page.catprint[ind] }}
 	{%- endcapture -%}
 
-	<h3 id="{{ cat | slugify }}">{{ cat }}</h3>
+	<h2 id="{{ cat | slugify }}">{{ cat }}</h2>
 	{% for y in page.years reversed  %}
 		{%- capture citecount -%}
 		{% bibliography_count -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
