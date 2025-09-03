@@ -8,28 +8,12 @@ categories: ['Preprints', 'Journal Articles', 'Conference Articles']
 catprint: ['', 'Preprints', 'Journal Articles', 'Conference Articles']
 nav: true
 nav_order: 2
-toc:
-  min_level: 2
-  max_level: 3
-  sidebar: left
-toc_exclude: '^\d{4}$'
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
 
-<p> 
-Listed below are my publications in reverse chronological order:
-</p>
-
-<p>
-<ul>
-    <li><a href="#preprints"><b>Preprints</b></a></li>
-    <li><a href="#journal-articles"><b>Journal Articles</b></a></li>
-    <li><a href="#conference-articles"><b>Conference Articles</b></a></li>
-</ul>
-</p>
-
-
+* Sections
+{:toc}
 
 {% for cat_ in page.categories  %}
 	{% assign ind = forloop.index %}
@@ -37,14 +21,17 @@ Listed below are my publications in reverse chronological order:
 	{%- capture cat -%}
 	{{ page.catprint[ind] }}
 	{%- endcapture -%}
+
+ 	### {{ cat }}
+  	{: #{{ cat | slugify }} }
 	
-	<h3 id="{{ cat | slugify }}">{{ cat }}</h3>
 	{% for y in page.years reversed  %}
 		{%- capture citecount -%}
 		{% bibliography_count -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
 		{%- endcapture -%}
 
 		{% if citecount != "0"  %}
+  			#### {{ y }} {: .no_toc}
 			{% bibliography -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
 		{% endif %}
 	{% endfor %}
