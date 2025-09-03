@@ -10,8 +10,8 @@ nav: true
 nav_order: 2
 toc:
   sidebar: left
-  min_level: 3
-  max_level: 3
+  min_level: 4
+  max_level: 4
 ---
 
 <!-- _pages/publications.md -->
