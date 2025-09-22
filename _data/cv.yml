@@ -76,13 +76,14 @@
     - title: Journals
       items:
         - IEEE Transactions on Automatic Control
-        - Automatica
         - IEEE Transactions on Control of Network Systems
         - IEEE Transactions on Control Systems Technology
         - IEEE Transactions on Cybernetics
         - IEEE Control Systems Letters
+        - Automatica
         - IEEE Journal on Selected Areas in Communications
         - IEEE Journal of Selected Areas in Sensors
+        - ACM Transactions on Cyber-Physical Systems
     - title: Conferences
       items:
         - IEEE Conference on Decision and Control 
