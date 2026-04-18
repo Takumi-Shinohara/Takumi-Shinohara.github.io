@@ -57,7 +57,7 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2025 - present
+    - year: 2025
       items:
         - Wallenberg Postdoctoral Scholarship, Knut and Alice Wallenberg Foundation
     - year: 2025
@@ -87,7 +87,8 @@
         - ACM Transactions on Cyber-Physical Systems
     - title: Conferences
       items:
-        - IEEE Conference on Decision and Control 
+        - IEEE Conference on Decision and Control
+        - IEEE Conference on Control Technology and Applications 
         - IFAC World Congress
         - American Control Conference
         - IEEE Vehicular Technology Conference
