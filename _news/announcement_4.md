@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper has been accepted for presentation at the IFAC World Congress 2026 in Busan, Korea.
+Our conference paper has been accepted at the IFAC World Congress 2026 in Busan, Korea.
