@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper has been accepted for publication in the IEEE Open Journal of Control Systems (OJ-CSYS).
+Our journal paper has been accepted in the IEEE Open Journal of Control Systems (OJ-CSYS).
