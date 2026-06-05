@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our conference paper has been accepted at ACC 2026 in New Orleans, Louisiana.
+Our conference paper has been accepted at the ACC 2026 in New Orleans, Louisiana.
