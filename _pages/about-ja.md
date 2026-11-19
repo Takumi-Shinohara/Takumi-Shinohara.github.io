@@ -1,13 +1,12 @@
 ---
 layout: page
-title: About (Japanese)
+title: 篠原 巧 (Takumi Shinohara)
 nav_title: About (Japanese)
 permalink: /ja/
 lang: ja
 nav: true
 nav_order: 1
-subtitle: 
-  博士研究員, スウェーデン王立工科大学（KTH Royal Institute of Technology）
+description: 博士研究員, スウェーデン王立工科大学（KTH Royal Institute of Technology）
 
 profile:
   align: right
