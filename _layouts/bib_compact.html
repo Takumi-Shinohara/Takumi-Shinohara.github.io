@@ -29,6 +29,7 @@
   {%- if entry.pages %}, {% if entry.pages contains '-' or entry.pages contains '–' %}pp. {% endif %}{{ entry.pages | replace: '--', '–' | replace: '-', '–' }}{% endif -%}
   , {{ entry.year }}.
 </span>
+<!--
 {% if doi_url != empty and doi_url != paper_url %}<a href="{{ doi_url | escape_once }}">[DOI]</a>{% endif %}
 {% if entry.arxiv %}<a href="https://arxiv.org/abs/{{ entry.arxiv | escape_once }}">[arXiv]</a>{% endif %}
 {% if entry.pdf %}
@@ -38,3 +39,4 @@
   {% endunless %}
   <a href="{{ pdf_url | escape_once }}">[PDF]</a>
 {% endif %}
+-->
